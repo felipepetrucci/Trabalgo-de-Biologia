@@ -1,0 +1,155 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #E6F4D5
+}
+
+header {
+	background-color: #2d7121;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+footer {
+	background-color: #f5f5f5;
+	color: #666;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Estilos específicos para seções */
+
+#Características-Importantes {
+	background-color: #eee;
+	padding: 40px;
+
+}
+
+#sobre {
+	background-color: #f5f5f5;
+	padding: 40px;
+}
+
+#morfologia {
+	background-color: #eee;
+	padding: 40px;
+}
+
+#ciclo-de-vida {
+	background-color: #f5f5f5;
+	padding: 40px;
+}
+
+#ecologia {
+	background-color: #eee;
+	padding: 40px;
+}
+
+#importancia {
+	background-color: #f5f5f5;
+	padding: 40px;
+}
+
+	#desenvolvedores{
+	background-color: #eee;
+	padding: 40px;
+}
+
+/* Estilos para telas menores */
+
+@media screen and (max-width: 600px) {
+	header {
+		padding: 10px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	nav ul {
+		flex-direction: column;
+	}
+
+	nav li {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	main {
+		padding: 10px;
+	}
+
+	section {
+		margin-bottom: 20px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+}
+
+section.videos{
+	padding:50px 0;
+}
+
+section.videos .box-video{
+	float: center;
+	width: 33.3%;
+	position: relative;
+	border:5px solid white;
+	padding-top:calc(33.3% * 0.6);
+}
+
+section.videos iframe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+section.perfil-container .perfil-wraper{
+	padding-top:0%;
+	position: relative;
+}
+
+section.perfil-container .img-perfil{
+	width: 40%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+
+section.perfil-container .texto-perfil{
+	width: 60%;
+}
